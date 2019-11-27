@@ -1,0 +1,104 @@
+body {
+  background: lightgrey;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title {
+  margin: 0;
+  display: inline;
+}
+
+p{
+position: absolute;
+left: 85%;
+top: 0;
+margin: 0;
+
+}
+
+#livesCounter{
+  left: 95%;
+  
+}
+
+.game {
+  background-image:url("game.png");
+  width: 500px;
+  height: 300px;
+  position: relative;
+}
+
+.obstacle {
+  position: absolute;
+  background: linear-gradient(to bottom, rgb(254,204,177) 0%,rgb(241,116,50) 50%,rgb(234,85,7) 51%,rgb(251,149,94) 100%); 
+  width: 15px;
+}
+
+#o1 {
+  top: 0;
+  left: 100px;
+  height: 100px;
+}
+
+#o2 {
+  bottom: 0;
+  left: 150px;
+  height: 200px;
+}
+
+#o3 {
+  top: 0;
+  left: 200px;
+  height: 220px;
+}
+
+#o4 {
+  bottom: 0;
+  left: 280px;
+  height: 80px;
+}
+
+#o5 {
+  top: 0;
+  left: 350px;
+  height: 260px;
+}
+
+#o6 {
+  bottom: 0;
+  left: 410px;
+  height: 100px;
+}
+
+#o7 {
+  top: 0;
+  left: 430px;
+  height: 150px;
+}
+
+#o8 {
+  bottom: 0;
+  left: 485px;
+  height: 200px;
+}
+
+#player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  background:linear-gradient(to right, rgb(222,239,255) 0%,rgb(152,190,222) 100%);
+  border-radius: 50%;
+
+}
+
+
+
+
