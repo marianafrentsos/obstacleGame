@@ -14,21 +14,19 @@ body {
   display: inline;
 }
 
-p{
-position: absolute;
-left: 85%;
-top: 0;
-margin: 0;
-
+p {
+  position: absolute;
+  left: 85%;
+  top: 0;
+  margin: 0;
 }
 
-#livesCounter{
+#livesCounter {
   left: 95%;
-  
 }
 
 .game {
-  background-image:url("game.png");
+  background-image: url("./game.png");
   width: 500px;
   height: 300px;
   position: relative;
@@ -36,7 +34,13 @@ margin: 0;
 
 .obstacle {
   position: absolute;
-  background: linear-gradient(to bottom, rgb(254,204,177) 0%,rgb(241,116,50) 50%,rgb(234,85,7) 51%,rgb(251,149,94) 100%); 
+  background: linear-gradient(
+    to bottom,
+    rgb(254, 204, 177) 0%,
+    rgb(241, 116, 50) 50%,
+    rgb(234, 85, 7) 51%,
+    rgb(251, 149, 94) 100%
+  );
   width: 15px;
 }
 
@@ -94,11 +98,10 @@ margin: 0;
   left: 0;
   width: 15px;
   height: 15px;
-  background:linear-gradient(to right, rgb(222,239,255) 0%,rgb(152,190,222) 100%);
+  background: linear-gradient(
+    to right,
+    rgb(222, 239, 255) 0%,
+    rgb(152, 190, 222) 100%
+  );
   border-radius: 50%;
-
 }
-
-
-
-
